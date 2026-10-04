@@ -1,0 +1,9 @@
+name: sand-ci
+on: [push]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder (real gates land with first code)
+        run: echo "SAND CI armed"
